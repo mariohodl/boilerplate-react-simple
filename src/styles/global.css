@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+.back-gradient {
+  background: linear-gradient(315deg, #063852, #011a27);
+  background-size: cover;
+}
+
+.height100vh {
+  height: 100vh;
+}
+.btn {
+  font-size: 20px;
+  border-radius: 30px;
+  background: #95ca3e;
+  color: black;
+  min-width: 200px;
+  display: inline-block;
+  padding: 7px 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.back-green {
+  background: #95ca3e;
+}
+
+.flex {
+  display: flex !important;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-right {
+  justify-content: flex-end;
+}
+.flex-left {
+  justify-content: flex-start;
+}
+.flex-middle {
+  align-items: center;
+}
+.flex-bottom {
+  align-items: flex-end;
+}
+.flex-top {
+  align-items: flex-start;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-none {
+  flex: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-white {
+  color: white;
+}
+
+.padding40 {
+  padding: 40px;
+}
+.font1-3rem {
+  font-size: 1.3rem;
+}
+
+.font40 {
+  font-size: 40px;
+}
+
+.margin-right10 {
+  margin-right: 10px;
+}

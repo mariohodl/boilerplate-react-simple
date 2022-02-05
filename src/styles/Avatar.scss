@@ -1,0 +1,147 @@
+.my-shape {
+  position: relative;
+  z-index: 4;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+}
+
+.my-shape-container {
+  position: relative;
+}
+.my-shape-container-img {
+  width: 256px;
+  height: 332px;
+  position: absolute;
+  bottom: -77px;
+  left: -20px;
+  z-index: 15;
+}
+
+.my-shape-container-simpleTriangle {
+  position: relative;
+  z-index: 15;
+}
+
+.my-shape-container-simpleTriangle:after {
+  content: "";
+  border-right: 330px solid #95ca3e;
+  border-top: 170px solid transparent;
+  border-left: 170px solid transparent;
+  border-bottom: 170px solid transparent;
+  position: absolute;
+  top: 5px;
+  left: -265px;
+}
+
+.my-shape-container-simpleTriangleSmallTop {
+  position: relative;
+  z-index: 15;
+}
+
+.my-shape-container-simpleTriangleSmallTop:after {
+  content: "";
+  border-right: 26px solid #95ca3e;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  top: 95px;
+  left: -85px;
+  transform: rotate(-20deg);
+}
+
+.my-shape-container-simpleTriangleSmallBottom {
+  position: relative;
+  z-index: 15;
+}
+
+.my-shape-container-simpleCircleSmallTop {
+  position: relative;
+  z-index: 15;
+}
+.my-shape-container-simpleCircleSmallTop:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 2px solid #50acff;
+  border-radius: 50%;
+  position: absolute;
+  left: 187px;
+  top: -15px;
+}
+
+.my-shape-container-simpleCircleSmallRight {
+  position: relative;
+  z-index: 15;
+}
+.my-shape-container-simpleCircleSmallRight:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 3px solid #50acff;
+  border-radius: 50%;
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+
+.my-shape-container-simpleCircleSmallLeft {
+  position: relative;
+  z-index: 15;
+}
+.my-shape-container-simpleCircleSmallLeft:after {
+  content: "";
+  width: 13px;
+  height: 13px;
+  border: 3px solid #50acff;
+  border-radius: 50%;
+  position: absolute;
+  left: -90px;
+  top: 230px;
+}
+
+.my-shape-container-simpleTriangleSmallBottom:after {
+  content: "";
+  border-right: 17px solid #95ca3e;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 325px;
+  left: 135px;
+  transform: rotate(-105deg);
+}
+
+.my-shape-container-roundedTriangle {
+  position: relative;
+  background-color: #50acff;
+  text-align: left;
+  z-index: 15;
+}
+
+.my-shape-container-roundedTriangle:before,
+.my-shape-container-roundedTriangle:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+}
+.my-shape-container-roundedTriangle,
+.my-shape-container-roundedTriangle:before,
+.my-shape-container-roundedTriangle:after {
+  width: 14em;
+  height: 14em;
+  border-top-right-radius: 82%;
+}
+
+.my-shape-container-roundedTriangle {
+  transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+}
+.my-shape-container-roundedTriangle:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+    translate(0, -50%);
+}
+.my-shape-container-roundedTriangle:after {
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
